@@ -1,0 +1,19 @@
+1. Briefly	describe	the	semantics	of	the	Unix	system	calls listed	below.	Place	your	descriptions	in	a	
+plain	text	file	named	syscalls.txt
+
+	a. fork();
+		Creates a child process which is initially an exact copy of its parent process. This new process can be used to run different
+		sections of the program and optimize its performance
+	b. exit();
+		Function to exit a program with either an error ( exit(-1) ) or with a success ( exit(0) ).
+	c. getpid();
+		Returns the process ID of the calling process.
+	d. getppid();
+		Returns the process ID of the parent of the calling
+		process.
+	e. wait();
+		Suspends execution of the calling process until one of its children terminates.
+	f. kill();
+		Sends a signal to a process or a group of processes specified by a pid
+	g. exec();
+		Replaces the current process image with a new process image.s
